@@ -1,14 +1,9 @@
-import React from "react";
-import TshirtRotate from "./components/ui/TshirtRotator";
-import ShowcaseSection from "./components/ui/ShowcaseSection";
+import React from 'react'
 
 const App = () => {
   return (
-    <>
-      <TshirtRotate />
-        <ShowcaseSection />
-    </>
-  );
-};
+    <div>App</div>
+  )
+}
 
 export default App;
