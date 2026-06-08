@@ -3,8 +3,9 @@ import logo from "../assets/king/blacklogo-Photoroom.png";
 import Navbar from "../components/Navbar";
 import ProductCard from "../components/products/ProductCard";
 import bannerImage from "../assets/king/bannerImage.png";
-import PhilosophyReveal from "../components/PhilosophyReveal";
+import TshirtRotator from "../components/ui/TshirtRotator";
 import ProductSection from "../components/products/ProductSection";
+import ShowcaseSection from "../components/ui/ShowcaseSection";
 
 const Home = () => {
   const { scrollY } = useScroll();
@@ -199,10 +200,11 @@ const Home = () => {
       </div>
 
       {/* IMPORTANT: normal flow section */}
-      <PhilosophyReveal />
+      <TshirtRotator/>
 
       {/* Product Section */}
       <ProductSection product={featuredProduct} />
+      <ShowcaseSection/>
     </motion.main>
   );
 };
