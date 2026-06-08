@@ -9,7 +9,7 @@ import { FiShoppingCart } from "react-icons/fi";
 
 import { FaXTwitter } from "react-icons/fa6";
 
-import logo from "../assets/king/blacklogo-Photoroom.png";
+import logo from "../assets/king/LOGO.png";
 import Button from "./ui/Button";
 
 const menuItems = [
